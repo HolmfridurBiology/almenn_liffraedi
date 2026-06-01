@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Almenn líffræði LÍFF2LA05 — Gagnvirkur fræðsluvefur, Flensborgarskóli">
+  <meta name="description" content="Almenn líffræði — Gagnvirkur fræðsluvefur fyrir framhaldsskóla">
   <meta name="author" content="Hólmfríður Sigþórsdóttir">
-  <title>Almenn Líffræði — LÍFF2LA05</title>
+  <title>Almenn líffræði</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,23 +13,20 @@
 <a href="#main" class="skip-link" data-i18n="skipLink">Fara beint í efni</a>
 <div id="overlay" class="overlay" aria-hidden="true"></div>
 
-<!-- ══════════════════════════════════════════
-     TOPBAR
-══════════════════════════════════════════ -->
+<!-- TOPBAR -->
 <header class="topbar" role="banner">
   <button id="menu-btn" class="menu-btn" aria-label="Opna valmynd" aria-expanded="false" aria-controls="sidebar">☰</button>
 
-  <a href="#" class="brand" aria-label="Almenn Líffræði — forsíða">
+  <a href="#" class="brand" aria-label="Almenn líffræði — forsíða">
     <div class="brand-dot" aria-hidden="true">🧬</div>
     <div>
-      <div class="brand-name" data-i18n="siteTitle">Almenn Líffræði</div>
-      <div class="brand-sub" data-i18n="subtitle">LÍFF2LA05 · Flensborgarskóli</div>
+      <div class="brand-name" data-i18n="siteTitle">Almenn líffræði</div>
     </div>
   </a>
 
   <div class="controls" role="toolbar" aria-label="Stillingar síðu">
     <button id="fz-dn" class="ctrl-btn" data-i18n-aria="fontDown" aria-label="Minnka letur" title="Minnka letur">A−</button>
-    <button id="fz-up" class="ctrl-btn" data-i18n-aria="fontUp"   aria-label="Stækka letur" title="Stækka letur">A+</button>
+    <button id="fz-up" class="ctrl-btn" data-i18n-aria="fontUp" aria-label="Stækka letur" title="Stækka letur">A+</button>
     <button id="theme-btn" class="ctrl-btn" data-i18n-aria="themeToggle" aria-label="Skipta um þema" title="Skipta um þema">☀️</button>
     <div class="lang-row" role="group" aria-label="Tungumál">
       <button class="lang-btn active" data-lang="is" aria-pressed="true">IS</button>
@@ -38,9 +35,7 @@
   </div>
 </header>
 
-<!-- ══════════════════════════════════════════
-     SIDEBAR
-══════════════════════════════════════════ -->
+<!-- SIDEBAR -->
 <nav id="sidebar" class="sidebar" aria-label="Kaflavalmynd">
   <p class="sidebar-label" data-i18n="navHome">Kaflar</p>
   <ul role="list">
@@ -49,13 +44,10 @@
     <li class="nav-item"><a href="#ch3"><span class="nav-icon" aria-hidden="true">🦠</span><span data-i18n="navCh3">Örverur</span></a></li>
     <li class="nav-item"><a href="#ch4"><span class="nav-icon" aria-hidden="true">🧬</span><span data-i18n="navCh4">Erfðafræði</span></a></li>
     <li class="nav-item"><a href="#ch5"><span class="nav-icon" aria-hidden="true">❤️</span><span data-i18n="navCh5">Æxlun</span></a></li>
-    <li class="nav-item"><a href="#ch6"><span class="nav-icon" aria-hidden="true">🌍</span><span data-i18n="navCh6">Vistfræði</span></a></li>
+    <li class="nav-item"><a href="#ch6"><span class="nav-icon" aria-hidden="true">🌍</span><span data-i18n="navCh6">Vist- og umhverfisfræði</span></a></li>
   </ul>
 </nav>
 
-<!-- ══════════════════════════════════════════
-     MAIN
-══════════════════════════════════════════ -->
 <main id="main" class="page" tabindex="-1">
 
   <!-- HERO -->
@@ -64,22 +56,20 @@
     <div class="blob blob2" aria-hidden="true"></div>
     <div class="blob blob3" aria-hidden="true"></div>
     <div class="hero-inner">
-      <div class="hero-badge" aria-hidden="true">🧬 LÍFF2LA05 · Flensborgarskóli</div>
-      <h1 id="hero-h" data-i18n="heroTitle">Lífið — smátt og stórt</h1>
-      <p class="hero-desc" data-i18n="heroDesc">Skoðaðu heiminn sem er of lítill til að sjást — en ræður ferðinni.</p>
-      <a href="#ch1" class="hero-cta" data-i18n="heroBtn">Byrja nám →</a>
+      <h1 id="hero-h" data-i18n="heroTitle">Lífið — frá örverum til jarðarinnar allrar</h1>
+      <p class="hero-desc" data-i18n="heroDesc">Frá hinu smæsta í líkamanum til hinna stærstu vistkerfa jarðar.</p>
+      <a href="#ch1" class="hero-cta" data-i18n="heroBtn">Hefja nám →</a>
     </div>
   </section>
 
-  <!-- Chapter overview cards -->
   <section aria-label="Yfirlit kafla">
     <div class="ch-grid">
-      <a href="#ch1" class="ch-card ac1" aria-label="Næringarfræði"><span class="ch-icon" aria-hidden="true">🥗</span><div class="ch-name" data-i18n="navCh1">Næringarfræði</div><div class="ch-blurb">Lífræn efni, vítamín og líffærakerfi</div></a>
-      <a href="#ch2" class="ch-card ac2" aria-label="Frumur"><span class="ch-icon" aria-hidden="true">🔬</span><div class="ch-name" data-i18n="navCh2">Frumur</div><div class="ch-blurb">Frumukenning, frumulíffæri, plöntu- og dýrafrumur</div></a>
-      <a href="#ch3" class="ch-card ac3" aria-label="Örverur"><span class="ch-icon" aria-hidden="true">🦠</span><div class="ch-name" data-i18n="navCh3">Örverur</div><div class="ch-blurb">Bakteríur, sveppir, veirur og kynsjúkdómar</div></a>
-      <a href="#ch4" class="ch-card ac4" aria-label="Erfðafræði"><span class="ch-icon" aria-hidden="true">🧬</span><div class="ch-name" data-i18n="navCh4">Erfðafræði</div><div class="ch-blurb">DNA, gen, litningar og Mendels lög</div></a>
-      <a href="#ch5" class="ch-card ac5" aria-label="Æxlun"><span class="ch-icon" aria-hidden="true">❤️</span><div class="ch-name" data-i18n="navCh5">Æxlun</div><div class="ch-blurb">Frjóvgun, þroski og kynheilbrigði</div></a>
-      <a href="#ch6" class="ch-card ac6" aria-label="Vistfræði"><span class="ch-icon" aria-hidden="true">🌍</span><div class="ch-name" data-i18n="navCh6">Vistfræði</div><div class="ch-blurb">Vistkerfi, fæðukeðjur og umhverfismál</div></a>
+      <a href="#ch1" class="ch-card ac1"><span class="ch-icon" aria-hidden="true">🥗</span><div class="ch-name" data-i18n="navCh1">Næringarfræði</div><div class="ch-blurb">Lífræn efni, vítamín og líffærakerfi</div></a>
+      <a href="#ch2" class="ch-card ac2"><span class="ch-icon" aria-hidden="true">🔬</span><div class="ch-name" data-i18n="navCh2">Frumur</div><div class="ch-blurb">Frumukenningin, frumulíffæri og frumugerðir</div></a>
+      <a href="#ch3" class="ch-card ac3"><span class="ch-icon" aria-hidden="true">🦠</span><div class="ch-name" data-i18n="navCh3">Örverur</div><div class="ch-blurb">Bakteríur, sveppir, veirur og kynsjúkdómar</div></a>
+      <a href="#ch4" class="ch-card ac4"><span class="ch-icon" aria-hidden="true">🧬</span><div class="ch-name" data-i18n="navCh4">Erfðafræði</div><div class="ch-blurb">DNA, gen, kyn- og blóðflokkserfðir</div></a>
+      <a href="#ch5" class="ch-card ac5"><span class="ch-icon" aria-hidden="true">❤️</span><div class="ch-name" data-i18n="navCh5">Æxlun</div><div class="ch-blurb">Kynæxlun, kynlaus æxlun og frjóvgun</div></a>
+      <a href="#ch6" class="ch-card ac6"><span class="ch-icon" aria-hidden="true">🌍</span><div class="ch-name" data-i18n="navCh6">Vist- og umhverfisfræði</div><div class="ch-blurb">Vistkerfi, flokkun lífvera og umhverfismál</div></a>
     </div>
   </section>
 
@@ -91,43 +81,53 @@
       <div class="ch-num" aria-hidden="true">1</div>
       <h2 id="ch1-h" data-i18n="ch1Title">★ Næringarfræði og mannslíkaminn</h2>
     </div>
-    <p class="ch-lead">Líkaminn er vél sem þarf eldsneyti. Við skoðum lífrænar efnasambönd, vítamín og hvernig líffærakerfi mannslíkamans frásogast og nýtir næringu.</p>
+    <p class="ch-lead">Líkaminn þarf orku til vaxtar og viðhalds. Við skoðum lífræn efni, vítamín og hvernig líffærakerfi líkamans vinna saman.</p>
 
     <div class="stats" aria-label="Lykiltölur">
-      <div class="stat"><span class="stat-val">3</span><span class="stat-lbl">Lífræn efnasambönd</span></div>
+      <div class="stat"><span class="stat-val">3</span><span class="stat-lbl">Lífræn orkugefandi efni</span></div>
       <div class="stat"><span class="stat-val">13</span><span class="stat-lbl">Nauðsynleg vítamín</span></div>
       <div class="stat"><span class="stat-val">11</span><span class="stat-lbl">Líffærakerfi</span></div>
       <div class="stat"><span class="stat-val">~2000</span><span class="stat-lbl">kcal dagsþörf</span></div>
     </div>
 
-    <details class="expand reveal">
-      <summary><span aria-hidden="true">⚗️</span> Lífræn efnasambönd — fita, sykrur og prótín <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+    <details class="expand reveal" open>
+      <summary><span aria-hidden="true">⚗️</span> Lífræn efni — fita, sykrur og prótín <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <p><strong>Kolvetni (sykrur)</strong> eru aðal orkugjafi. Sundrast í glúkósa sem frumur nota. Einfaldur sykur = monosakkríðar (glúkósi, frúktósi).</p>
-        <p><strong>Fita</strong> geymir orku, hlífir líffærum og er hluti frumuhimna. Fitusýrur eru byggingareinng. Omega-3 sérstaklega mikilvægar.</p>
-        <p><strong>Prótín</strong> — byggingarefni líkamans: vöðvar, ensím, hormón. Byggingareiningar: amínósýrur (20 mismunandi).</p>
-        <ul>
-          <li>Lífræn efni innihalda alltaf <strong>kolefni (C)</strong></li>
-          <li>Ólífræn efni (vatn, steinefni) innihalda ekki C–C tengsl</li>
-          <li>Vítamín eru lífræn en þarf lítið af — auðvelda ensímvirkni</li>
-        </ul>
+        <p><strong>Kolvetni (sykrur)</strong> eru aðalorkugjafi líkamans. Þau sundrast í <span class="term" data-def="Einföld sykra (einsykra) sem frumur nota beint til orku.">glúkósa</span> sem frumur nota sem eldsneyti.</p>
+        <p><strong>Fita</strong> geymir orku, hlífir líffærum og er hluti af frumuhimnum. Byggingareiningarnar eru <span class="term" data-def="Sameindir sem mynda fitu — geta verið mettaðar eða ómettaðar.">fitusýrur</span>. Omega-3 fitusýrur eru sérstaklega mikilvægar fyrir hjarta og heila.</p>
+        <p><strong>Prótín</strong> eru byggingarefni líkamans: vöðvar, ensím og hormón. Byggingareiningarnar eru 20 mismunandi <span class="term" data-def="Smáar sameindir sem raðast saman í langar keðjur — gera prótín. Mannslíkaminn notar 20 mismunandi amínósýrur.">amínósýrur</span>.</p>
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — lífrænt efni</strong>
+          Lífræn efni innihalda alltaf <strong>kolefni (C)</strong> og oftast vetni (H). Ólífræn efni — eins og vatn og steinefni — innihalda ekki kolefnis-kolefnis tengsl. Vítamín eru lífræn en þarf lítið af; þau auðvelda ensímvirkni.
+        </div>
       </div>
     </details>
 
     <details class="expand reveal">
-      <summary><span aria-hidden="true">💊</span> Vítamín og steinefni <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <summary><span aria-hidden="true">💊</span> Vítamín — hlutverk og skortseinkenni <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
+        <p>Vítamín eru lífræn efni sem líkaminn þarf í litlum skömmtum. Þau skiptast í <strong>fituleysanleg</strong> (A, D, E, K — geymast í líkamanum) og <strong>vatnsleysanleg</strong> (B-flokkur og C — skolast út með þvagi).</p>
         <table>
-          <thead><tr><th>Vítamín</th><th>Leysanleg í</th><th>Hlutverk</th><th>Heimild</th></tr></thead>
+          <thead><tr><th>Vítamín</th><th>Leysanlegt í</th><th>Hlutverk</th><th>Skortseinkenni</th><th>Uppspretta</th></tr></thead>
           <tbody>
-            <tr><td>A</td><td>Fitu</td><td>Sjón, húð, ónæmi</td><td>Gulrætur, lifur</td></tr>
-            <tr><td>C</td><td>Vatni</td><td>Bandvefur, andoxun</td><td>Sítrusávextir</td></tr>
-            <tr><td>D</td><td>Fitu</td><td>Kalsíumfrásog, bein</td><td>Sól, lýsi</td></tr>
-            <tr><td>B12</td><td>Vatni</td><td>Taugar, rauð blóðkorn</td><td>Kjöt, mjólkurvörur</td></tr>
-            <tr><td>K</td><td>Fitu</td><td>Blóðstorkning</td><td>Grænmeti, þarmar</td></tr>
+            <tr><td><strong>A</strong></td><td>Fitu</td><td>Sjón, húð, ónæmi</td><td>Náttblinda, þurr húð</td><td>Gulrætur, lifur, eggjarauða</td></tr>
+            <tr><td><strong>B1</strong> (þíamín)</td><td>Vatni</td><td>Orkuefnaskipti, taugar</td><td>Beríberí (taugasjúkdómur)</td><td>Heilkorn, baunir</td></tr>
+            <tr><td><strong>B2</strong> (ríbóflavín)</td><td>Vatni</td><td>Orkuefnaskipti, húð</td><td>Sár á vörum, þurr húð</td><td>Mjólk, kjöt, egg</td></tr>
+            <tr><td><strong>B3</strong> (níasín)</td><td>Vatni</td><td>Orkuefnaskipti</td><td>Pellagra (húðsjúkdómur)</td><td>Kjöt, fiskur, hnetur</td></tr>
+            <tr><td><strong>B6</strong></td><td>Vatni</td><td>Prótínefnaskipti</td><td>Blóðleysi, húðvandamál</td><td>Bananar, kjöt, fiskur</td></tr>
+            <tr><td><strong>B9</strong> (fólínsýra)</td><td>Vatni</td><td>DNA-myndun, fósturþroski</td><td>Blóðleysi, fósturgallar</td><td>Grænmeti, baunir</td></tr>
+            <tr><td><strong>B12</strong></td><td>Vatni</td><td>Taugar, rauð blóðkorn</td><td>Blóðleysi, taugakvilli</td><td>Kjöt, mjólkurvörur, egg</td></tr>
+            <tr><td><strong>C</strong></td><td>Vatni</td><td>Bandvefur, andoxun, ónæmi</td><td>Skyrbjúgur</td><td>Sítrusávextir, paprika</td></tr>
+            <tr><td><strong>D</strong></td><td>Fitu</td><td>Kalsíumfrásog, bein</td><td>Beinkröm (börn), beinmissir (fullorðnir)</td><td>Sól, lýsi, feitur fiskur</td></tr>
+            <tr><td><strong>E</strong></td><td>Fitu</td><td>Andoxun, frumuhimnur</td><td>Sjaldgæft — taugatruflanir</td><td>Olíur, hnetur, fræ</td></tr>
+            <tr><td><strong>K</strong></td><td>Fitu</td><td>Blóðstorkning</td><td>Aukin blæðing</td><td>Grænmeti, þarmabakteríur</td></tr>
           </tbody>
         </table>
-        <p><strong>Steinefni:</strong> Kalsíum (bein), járn (blóðrauði), joð (skjaldkirtill), sink (ónæmi).</p>
+        <p style="margin-top:.8rem"><strong>Steinefni:</strong> Kalsíum (bein), járn (blóðrauði), joð (skjaldkirtill), sink (ónæmi).</p>
+        <div class="link-list">
+          <a class="link-pill" href="https://www.heilsuvera.is" target="_blank" rel="noopener">🔗 Heilsuvera</a>
+          <a class="link-pill" href="https://www.landlaeknir.is" target="_blank" rel="noopener">🔗 Embætti landlæknis</a>
+        </div>
       </div>
     </details>
 
@@ -135,29 +135,27 @@
       <summary><span aria-hidden="true">🫀</span> Líffærakerfi mannslíkamans <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
         <ul>
-          <li><strong>Meltingarkerfi:</strong> Munnhol→vél→magi→smáþarmar→ristill — sundrar mat og frásogast næringu</li>
-          <li><strong>Hjarta- og blóðrásarkerfi:</strong> Hjartað dælir blóði, æðar flytja súrefni og næringarefni</li>
-          <li><strong>Öndunarkerfið:</strong> Lungu taka til sín O₂ og losa CO₂</li>
-          <li><strong>Þvagkerfið:</strong> Nýru hreinsa blóðið og framleiða þvag</li>
-          <li><strong>Ónæmiskerfið:</strong> Hvít blóðkorn og mótefni verjast sýkingum</li>
-          <li><strong>Taugakerfið:</strong> Heili, mæna, taugar — stjórna líkamanum</li>
-          <li><strong>Innkirtlakerfið:</strong> Kirtlar framleiða hormón</li>
-          <li><strong>Beina- og vöðvakerfi:</strong> Stoð og hreyfing</li>
-          <li><strong>Þekjukerfið:</strong> Húð, hár, neglur — vernda líkamann</li>
-          <li><strong>Vessa- og eitlakerfi:</strong> Flytur vessa og virkjar ónæmissvörun</li>
-          <li><strong>Æxlunarkerfi:</strong> Framleiðir kynfrumur og afkvæmi</li>
+          <li><strong>Meltingarkerfi:</strong> Munnur → vélinda → magi → smáþarmar → ristill. Sundrar fæðu og frásogar næringarefni.</li>
+          <li><strong>Hjarta- og blóðrásarkerfi:</strong> Hjartað dælir blóði; æðar flytja m.a. næringarefni og lofttegundir um líkamann.</li>
+          <li><strong>Öndunarkerfi:</strong> Lungu taka til sín O₂ og losa CO₂.</li>
+          <li><strong>Þvagkerfi:</strong> Nýru hreinsa blóðið og framleiða þvag.</li>
+          <li><strong>Ónæmiskerfi:</strong> Hvít blóðkorn og mótefni verjast sýkingum.</li>
+          <li><strong>Taugakerfi:</strong> Heili, mæna og taugar bregðast við áreiti og stjórna líkamanum.</li>
+          <li><strong>Innkirtlakerfi:</strong> Kirtlar framleiða hormón.</li>
+          <li><strong>Beina- og vöðvakerfi:</strong> Stoð og hreyfing.</li>
+          <li><strong>Þekjukerfi:</strong> Húð, hár og neglur vernda líkamann.</li>
+          <li><strong>Vessa- og eitlakerfi:</strong> Flytur vessa og virkjar ónæmissvörun.</li>
+          <li><strong>Æxlunarkerfi:</strong> Framleiðir kynfrumur og afkvæmi.</li>
         </ul>
       </div>
     </details>
 
-    <!-- Drag and drop -->
     <div class="izone reveal" aria-label="Næringarflokkun drag-and-drop">
       <p class="izone-title" data-i18n="dragTitle">Raðaðu næringarefnum í réttan flokk</p>
       <p style="font-size:.75rem;color:var(--text3);margin-bottom:.8rem" data-i18n="dragHint">Dragðu og slepptu</p>
       <div id="drag-zone" aria-live="polite"></div>
     </div>
 
-    <!-- Quiz -->
     <div class="izone reveal" aria-label="Próf í næringarfræði">
       <p class="izone-title" data-i18n="quizHeading">🧪 Prófaðu þig</p>
       <div id="ch1-q" data-quiz="ch1" aria-live="polite"></div>
@@ -170,30 +168,30 @@
   <section id="ch2" class="chapter ac2 reveal" aria-labelledby="ch2-h">
     <div class="ch-header">
       <div class="ch-num" style="background:var(--green);color:#000" aria-hidden="true">2</div>
-      <h2 id="ch2-h" data-i18n="ch2Title">★ Frumur — lífseiningar</h2>
+      <h2 id="ch2-h" data-i18n="ch2Title">★ Frumur</h2>
     </div>
-    <p class="ch-lead">Allar lífverur eru gerðar úr frumum. Skoðum frumukenninguna, frumulíffærin og muninn á dýra-, plöntu- og bakteríufrumum.</p>
+    <p class="ch-lead">Allar lífverur eru gerðar úr frumum.</p>
 
     <div class="stats">
-      <div class="stat"><span class="stat-val">10–100μm</span><span class="stat-lbl">Stærð dæmigerðrar frumu</span></div>
+      <div class="stat"><span class="stat-val">10–100 μm</span><span class="stat-lbl">Stærð dæmigerðrar frumu</span></div>
       <div class="stat"><span class="stat-val">37 milljarðar</span><span class="stat-lbl">Frumur í mannslíkama</span></div>
       <div class="stat"><span class="stat-val">~200</span><span class="stat-lbl">Frumugerðir í mönnum</span></div>
     </div>
 
-    <details class="expand reveal">
-      <summary><span aria-hidden="true">📜</span> Frumukenningin — 3 meginreglur <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+    <details class="expand reveal" open>
+      <summary><span aria-hidden="true">📜</span> Frumukenningin — þrjár meginreglur <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <ul>
-          <li><strong>1.</strong> Allar lífverur eru gerðar úr einni eða fleiri frumum.</li>
-          <li><strong>2.</strong> Fruman er grunneining lífsins.</li>
-          <li><strong>3.</strong> Allar frumur koma frá frumum — <em>omnis cellula e cellula</em>.</li>
-        </ul>
+        <ol>
+          <li>Allar lífverur eru gerðar úr einni eða fleiri frumum.</li>
+          <li>Fruman er grunneining lífsins.</li>
+          <li>Allar frumur koma frá öðrum frumum.</li>
+        </ol>
         <p>Kenningin þróaðist á 19. öld með <strong>Schleiden, Schwann og Virchow</strong>.</p>
       </div>
     </details>
 
     <details class="expand reveal">
-      <summary><span aria-hidden="true">⚖️</span> Dreifkjarnafrumur vs. kjarnafrumur <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <summary><span aria-hidden="true">⚖️</span> Dreifkjarnafrumur og kjarnafrumur <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
         <table>
           <thead><tr><th>Eiginleiki</th><th>Dreifkjarnafruma</th><th>Kjarnafruma</th></tr></thead>
@@ -201,7 +199,7 @@
             <tr><td>Kjarni</td><td>Enginn afmarkaður kjarni</td><td>Afmarkaður kjarni</td></tr>
             <tr><td>DNA</td><td>Í umfrymi</td><td>Í kjarna</td></tr>
             <tr><td>Stærð</td><td>1–10 μm</td><td>10–100 μm</td></tr>
-            <tr><td>Frumuveggur</td><td>Já (peptidóglýkan)</td><td>Já hjá plöntum (sellulósi)</td></tr>
+            <tr><td>Frumuveggur</td><td>Já</td><td>Aðeins hjá plöntum (<span class="term" data-def="Sellulósi — sterk trefjaefni sem myndar frumuvegg plantna og gefur þeim styrk.">beðmi</span>)</td></tr>
             <tr><td>Dæmi</td><td>Bakteríur</td><td>Dýr, plöntur, sveppir</td></tr>
           </tbody>
         </table>
@@ -209,30 +207,31 @@
     </details>
 
     <details class="expand reveal">
-      <summary><span aria-hidden="true">🏗️</span> Helstu frumulíffæri og hlutverk <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <summary><span aria-hidden="true">🏗️</span> Helstu frumulíffæri og hlutverk þeirra <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
         <ul>
-          <li><strong>Kjarni:</strong> Geymir DNA; stjórnstöð frumunnar</li>
-          <li><strong>Hvatberi (Mitókondría):</strong> Framleiðir ATP — orkuver frumunnar</li>
-          <li><strong>Grænukorn (Kloroplastur):</strong> Ljóstillífun — AÐEINS í plöntufrumum</li>
-          <li><strong>Frymisflétta (Golgi):</strong> Pósthúsið — flokkar og sendir prótín</li>
-          <li><strong>Frymisnet (ER):</strong> Hrjúft: prótínframleiðsla; Slétt: fituframleiðsla</li>
-          <li><strong>Netkorn (Ríbósóm):</strong> Prótínmyndun</li>
-          <li><strong>Safabóla:</strong> Geymsla — stór í plöntufrumum, heldur þrýstingi</li>
-          <li><strong>Frumuhimna:</strong> Velvirk himna — stýrir efnaflutningi</li>
-          <li><strong>Frumuveggur:</strong> Ytra hlið plöntu- og bakteríufrumna — gefur styrk</li>
+          <li><strong>Kjarni:</strong> Geymir DNA og stjórnar frumunni.</li>
+          <li><strong>Hvatberi (mitókondría):</strong> Framleiðir <span class="term" data-def="Eldsneyti frumunnar — orkurík sameind sem hvatberar framleiða með frumuöndun.">ATP</span> — orkuver frumunnar.</li>
+          <li><strong>Grænukorn:</strong> <span class="term" data-def="Þegar plöntur og þörungar nota sólarljós og koldíoxíð til að búa til sykur og súrefni.">Ljóstillífun</span> — aðeins í plöntufrumum.</li>
+          <li><strong>Frymisflétta (Golgi):</strong> Pakkar og sendir prótín.</li>
+          <li><strong>Frymisnet:</strong> Hrjúft frymisnet framleiðir prótín; slétt frymisnet framleiðir fitu.</li>
+          <li><strong>Netkorn (ríbósóm):</strong> Prótínmyndun.</li>
+          <li><strong>Safabóla:</strong> Geymsla; stór í plöntufrumum og heldur þrýstingi.</li>
+          <li><strong>Frumuhimna:</strong> Hálfgegndræp himna sem stýrir efnaflutningi.</li>
+          <li><strong>Frumuveggur:</strong> Ytra lag plöntu- og bakteríufrumna; gefur styrk.</li>
+          <li><strong>Deilikorn (centríól):</strong> Tekur þátt í myndun spóluþráða við frumuskiptingu — finnst aðallega í dýrafrumum.</li>
+          <li><strong>Leysibóla (leysikorn):</strong> Inniheldur meltingarensím sem brjóta niður gamla frumuhluta og aðskotaefni.</li>
+          <li><strong>Seytibóla:</strong> Lítil blaðra sem flytur efni inni í frumunni og sendir út um frumuhimnuna.</li>
         </ul>
       </div>
     </details>
 
-    <!-- Cell diagram -->
     <div class="izone reveal" aria-label="Gagnvirkt frumurit">
       <p class="izone-title" data-i18n="cellTitle">Gagnvirkt frumurit</p>
       <p style="font-size:.75rem;color:var(--text3);margin-bottom:.8rem" data-i18n="cellHint">Smelltu á hluta til að fá frekari upplýsingar</p>
       <div id="cell-diagram" aria-live="polite"></div>
     </div>
 
-    <!-- Quiz -->
     <div class="izone reveal" aria-label="Próf í frumufræði">
       <p class="izone-title" data-i18n="quizHeading">🧪 Prófaðu þig</p>
       <div id="ch2-q" data-quiz="ch2" aria-live="polite"></div>
@@ -247,55 +246,63 @@
       <div class="ch-num" style="background:var(--rose)" aria-hidden="true">3</div>
       <h2 id="ch3-h" data-i18n="ch3Title">★ Örverur — bakteríur, sveppir og veirur</h2>
     </div>
-    <p class="ch-lead">Örverur eru alls staðar — í jarðvegi, í loftinu, í líkama þínum. Sumar bjarga lífi þínu, aðrar valda sjúkdómi. Lærðu að þekkja þær.</p>
+    <p class="ch-lead">Örverur eru alls staðar — í jarðvegi, í lofti og í líkama þínum. Sumar bjarga lífi þínu, aðrar valda sjúkdómum.</p>
 
-    <div class="stats">
-      <div class="stat"><span class="stat-val">10¹³</span><span class="stat-lbl">Bakteríur í mannslíkama</span></div>
-      <div class="stat"><span class="stat-val">~20 mín</span><span class="stat-lbl">Skiptingartímabil bakteríu</span></div>
-      <div class="stat"><span class="stat-val">~27</span><span class="stat-lbl">Bólusetningar í boði á Ísl.</span></div>
-    </div>
-
-    <details class="expand reveal">
-      <summary><span aria-hidden="true">🦠</span> Bakteríur — bygging og lífsform <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+    <details class="expand reveal" open>
+      <summary><span aria-hidden="true">🦠</span> Bakteríur — bygging og lífsháttur <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <p>Bakteríur eru <strong>dreifkjarnafrumur</strong> — smæstu frumur sem við þekkjum. Fjölga sér með <em>skiptingu</em>.</p>
+        <p>Bakteríur eru <span class="term" data-def="Frumur sem hafa ekkert afmarkaðan kjarna — DNA flýtur laust í umfrymi.">dreifkjarnafrumur</span> — smæstu frumur sem við þekkjum.</p>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Fjölgun</p>
+        <p><strong>Kynæxlun</strong> hjá bakteríum er sjaldgæf en gerist með skiptum á DNA milli baktería. <strong>Skipting</strong> er aðalfjölgunarleið þeirra — ein bakteríufruma verður að tveimur með því að tvöfalda DNA-ið og skipta sér í tvennt. Við góð skilyrði getur þetta gerst á aðeins 20 mínútum.</p>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Lífsháttur</p>
         <ul>
-          <li><strong>Frumbjarga (autotróf):</strong> Búa til eigin næringu — ljóstillífun eða efnatillífun</li>
-          <li><strong>Ófrumbjarga (heterotróf):</strong>
+          <li><strong>Frumbjarga (autotrófar):</strong> Búa til eigin næringu — með ljóstillífun eða <span class="term" data-def="Þegar lífverur búa til lífræn efni úr ólífrænum með orku úr efnasamböndum (ekki ljósi).">efnatillífun</span>.</li>
+          <li><strong>Ófrumbjarga (heterotrófar):</strong>
             <ul>
-              <li><em>Rotlífi:</em> Sundra dauðum lífrænum efnum — mikilvægar rotverar</li>
-              <li><em>Samhjálp:</em> Báðar lífverur hagnast (t.d. niturb. bakt. og belgplöntur)</li>
-              <li><em>Sníkjulífi:</em> Sníkjudýrið hagnast — gistill læðist (t.d. klamýdía)</li>
+              <li><em>Rotlífi:</em> Sundra dauðum lífrænum efnum — mikilvægar <span class="term" data-def="Bakteríur og sveppir sem brjóta niður dauðar lífverur og skila næringarefnum í jarðveginn.">sundrendur</span>.</li>
+              <li><em>Samhjálp:</em> Báðar lífverur hagnast (t.d. niturbindandi bakteríur á rótum belgjurta).</li>
+              <li><em>Sníkjulíf:</em> Sníkillinn hagnast en hýsillinn tapar (t.d. klamýdíubaktería).</li>
             </ul>
           </li>
-          <li><strong>Skilyrði rotnunar:</strong> Raki + hiti + súrefni</li>
-          <li><strong>Varnir:</strong> Frysting · Söltun · Súrsun · Reyking · Þerrkun</li>
         </ul>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Varnir gegn rotnun í eldhúsi</strong>
+          Bakteríur og sveppir sem rotsa fæðu þurfa <strong>raka, hita og súrefni</strong>. Því notum við:
+          <ul style="margin:.3rem 0 0 1rem">
+            <li><strong>Kæling/frysting</strong> — lækkar hitastig</li>
+            <li><strong>Þurrkun</strong> — fjarlægir vatn</li>
+            <li><strong>Lofttæmi</strong> — fjarlægir súrefni</li>
+            <li><strong>Efnameðhöndlun</strong> — söltun, súrsun eða reyking</li>
+          </ul>
+        </div>
       </div>
     </details>
 
     <details class="expand reveal">
-      <summary><span aria-hidden="true">🍄</span> Sveppir (Fungi) <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <summary><span aria-hidden="true">🍄</span> Sveppir <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <p>Sveppir eru kjarnafrumur með frumuvegg úr <strong>kítíni</strong>. Ófrumbjarga — lifa á rotlífi eða sníkjulífi.</p>
-        <ul>
-          <li><strong>Fjölgun:</strong> Með gróum (spórum) — kynlæg og kynlaus</li>
-          <li><strong>Nytsamir:</strong> Penisillín (Fleming 1928), gersveppir í brauð og bjór, ostar</li>
-          <li><strong>Skaðlegir:</strong> Fótsveppur, lungnasýkingar, matarskemmdir</li>
-        </ul>
+        <p>Sveppir eru kjarnafrumur með frumuvegg úr <span class="term" data-def="Sterk trefjaefni sem myndar frumuvegg sveppa og skel skordýra.">kítíni</span>. Þeir eru ófrumbjarga — lifa á rotlífi eða sníkjulífi.</p>
+        <p><strong>Fjölgun:</strong> Kynlaus æxlun og gróæxlun (myndun gróa/spora).</p>
+        <p><strong>Samhjálp:</strong> Margir sveppir mynda <span class="term" data-def="Svepprætur — samlíf sveppa og trjáa. Tréð fær steinefni úr jarðvegi; sveppurinn fær sykur úr trénu.">svepprætur</span> með trjám í skógum.</p>
+        <p><strong>Nytsamir:</strong> Pensilín (Fleming, 1928), gersveppir í brauði og bjór, ostar.</p>
+        <p><strong>Skaðlegir:</strong> Fótsveppur, myglusveppir, matarskemmdir.</p>
       </div>
     </details>
 
     <details class="expand reveal">
       <summary><span aria-hidden="true">🧫</span> Veirur — lífvana smitefni <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <p>Veirur eru <strong>ekki frumur</strong>. Lífvana — geta aðeins fjölgað sér inni í lifandi hýsli.</p>
-        <ul>
-          <li><strong>Bygging:</strong> Erfðaefni (DNA eða RNA) + prótínhúð (kapsíð); sumar með fituhimnu</li>
-          <li><strong>Fjölgun:</strong> Festar við hýsil → dæla inn erfðaefni → hýsill framleiðir nýjar veirur → spring</li>
-          <li><strong>Dæmi:</strong> Inflúensa, COVID-19, HIV, HPV, Herpes, Noróveirur</li>
-          <li><strong>Sýklalyf virka EKKI gegn veirum</strong> — eingöngu gegn bakteríum</li>
-        </ul>
+        <p>Veirur eru <strong>ekki frumur</strong>. Þær eru lífvana og geta aðeins fjölgað sér inni í lifandi hýsilfrumum.</p>
+        <p><strong>Bygging:</strong> erfðaefni (DNA eða RNA) og prótínhjúpur.</p>
+        <p><strong>Fjölgun:</strong> Inni í lifandi hýsilfrumum.</p>
+        <p><strong>Dæmi:</strong> Inflúensa, SARS-CoV-2 (orsakar COVID-19), HIV, HPV, herpes, nóróveira.</p>
+        <div class="tip-box">
+          <strong class="tip-label">⚠️ Mikilvægt að muna</strong>
+          Sýklalyf virka <strong>ekki</strong> gegn veirum — eingöngu gegn bakteríum. Þess vegna er mikilvægt að taka sýklalyf aðeins þegar læknir ávísar þeim.
+        </div>
       </div>
     </details>
 
@@ -305,20 +312,19 @@
         <table>
           <thead><tr><th>Sjúkdómur</th><th>Orsök</th><th>Einkenni</th><th>Meðferð</th></tr></thead>
           <tbody>
-            <tr><td>Klamýdía</td><td>Baktería</td><td>Oft einkennalaus; sviði</td><td>Sýklalyf</td></tr>
+            <tr><td>Klamýdía</td><td>Baktería</td><td>Oft engin; sviði</td><td>Sýklalyf</td></tr>
             <tr><td>Lekandi</td><td>Baktería</td><td>Útferð, sviði</td><td>Sýklalyf</td></tr>
-            <tr><td>Sárasótt</td><td>Baktería</td><td>Sár, útbrot</td><td>Penisillín</td></tr>
-            <tr><td>HIV/AIDS</td><td>HIV veiran</td><td>Þreyta; lélægt ónæmi</td><td>ART (líflæknisfræði)</td></tr>
-            <tr><td>HPV/Vörtur</td><td>HPV veiran</td><td>Vörtur á kynfærum</td><td>Bólusetning · eyðing</td></tr>
-            <tr><td>Herpes</td><td>HSV veiran</td><td>Blöðrur, frunsur</td><td>Meinalyf (líknar)</td></tr>
+            <tr><td>Sárasótt</td><td>Baktería</td><td>Sár, útbrot — banvænn án meðferðar</td><td>Sýklalyf</td></tr>
+            <tr><td>HIV / alnæmi</td><td>HIV-veiran</td><td>Þreyta; veikt ónæmi — banvænn án meðferðar</td><td>Bælimeðferð (ekki lækning)</td></tr>
+            <tr><td>Kynfæravörtur</td><td>HPV-veiran</td><td>Vörtur á kynfærum; getur leitt til leghálskrabba</td><td>Bólusetning sem forvörn (ekki lækning)</td></tr>
+            <tr><td>Herpes</td><td>HSV-veiran</td><td>Blöðrur, frunsur</td><td>Smyrsl draga úr einkennum (ekki lækning)</td></tr>
+            <tr><td>Flatlús</td><td>Skordýr</td><td>Kláði í kynfærahárum</td><td>Sérstök sjampó / áburðir</td></tr>
           </tbody>
         </table>
-        <p style="color:var(--gold);margin-top:.6rem"><strong>💛 Besta vörn:</strong> Smokkar + Bólusetning (HPV) + Fækkun kynmaka</p>
-        <p style="color:var(--rose);margin-top:.3rem"><strong>⚠️ HPV</strong> er hættulegastur til langs tíma vegna krabbameinsáhættu (leghálskrabbamein).</p>
+        <p style="color:var(--gold);margin-top:.6rem"><strong>💛 Besta vörn:</strong> Smokkar + bólusetning gegn HPV. Heilsugæslan býður ókeypis kynsjúkdómaskoðun.</p>
       </div>
     </details>
 
-    <!-- Quiz -->
     <div class="izone reveal" aria-label="Próf í örverum">
       <p class="izone-title" data-i18n="quizHeading">🧪 Prófaðu þig</p>
       <div id="ch3-q" data-quiz="ch3" aria-live="polite"></div>
@@ -326,63 +332,162 @@
   </section>
 
   <!-- ════════════════════════════════════════
-       KAFLI 4: ERFÐAFRÆÐI
+       KAFLI 4: ERFÐAFRÆÐI (útvíkkað!)
   ════════════════════════════════════════ -->
   <section id="ch4" class="chapter ac4 reveal" aria-labelledby="ch4-h">
     <div class="ch-header">
       <div class="ch-num" style="background:#a78bfa" aria-hidden="true">4</div>
       <h2 id="ch4-h" data-i18n="ch4Title">★ Erfðafræði og stökkbreytingar</h2>
     </div>
-    <p class="ch-lead">DNA er lífskóðinn. Skoðum erfðalög Mendels, hvernig eiginleikar erfast og tengsl erfða og krabbameins.</p>
 
     <div class="stats">
-      <div class="stat"><span class="stat-val">3 milljarðar</span><span class="stat-lbl">Basapör í mannlegum erfðamengi</span></div>
+      <div class="stat"><span class="stat-val">3 milljarðar</span><span class="stat-lbl">Basapör í erfðamengi mannsins</span></div>
       <div class="stat"><span class="stat-val">~20.000</span><span class="stat-lbl">Gen hjá mönnum</span></div>
-      <div class="stat"><span class="stat-val">46</span><span class="stat-lbl">Litningar í mannlíkama (23 pör)</span></div>
+      <div class="stat"><span class="stat-val">46</span><span class="stat-lbl">Litningar í líkamsfrumum (23 pör)</span></div>
     </div>
 
-    <details class="expand reveal">
-      <summary><span aria-hidden="true">🧬</span> DNA — uppbygging og basapar <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+    <details class="expand reveal" open>
+      <summary><span aria-hidden="true">🧬</span> DNA — uppbygging og basapör <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <p>DNA er tvöfaldur þræðir (<em>double helix</em>). Byggt úr <strong>núkleótíðum</strong> — fjórar tegundir basa:</p>
+        <p>DNA er úr tvöföldum þræði. Byggingareiningarnar eru <span class="term" data-def="Byggingareining DNA og RNA. Hvert kirni er gert úr sykru, fosfati og einum af fjórum niturbösum (A, T, G eða C).">kirni</span> — og hvert kirni er gert úr sykru, <a href="https://www.visindavefur.is/svar.php?id=17254" target="_blank" rel="noopener">fosfati</a> og <strong>niturbasa</strong>.</p>
+        <p>Niturbasarnir eru fjórir og parast saman á ákveðinn hátt:</p>
         <ul>
-          <li><strong>A</strong> (adenín) pairs with <strong>T</strong> (þýmín)</li>
-          <li><strong>G</strong> (guanín) pairs with <strong>C</strong> (sýtósín)</li>
+          <li><strong>A</strong> (adenín) parast við <strong>T</strong> (þýmín)</li>
+          <li><strong>G</strong> (gúanín) parast við <strong>C</strong> (sýtósín)</li>
         </ul>
-        <p>Röð basanna kóðar prótín í gegnum <strong>RNA</strong> milliliðinn. DNA er geymt í <strong>litningum</strong> í kjarnanum.</p>
-        <p>Mannlegt erfðamengi (genóm) = ~3 milljarðar basapöra + ~20.000 gen.</p>
+        <p>Röð basanna í DNA ræður því hvaða prótín verða mynduð.</p>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Hvar er DNA?</p>
+        <p>DNA er geymt í <span class="term" data-def="Þéttvafið DNA með prótínum sem geymir erfðaefnið. Maðurinn hefur 46 litninga.">litningum</span> í kjarna kjarnafrumna en laust í umfrymi hjá <span class="term" data-def="Frumur án afmarkaðs kjarna — t.d. bakteríur.">dreifkjarnafrumum</span> eins og bakteríum.</p>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — litningar</strong>
+          Litningar eru misjafnt margir eftir lífverum. Maðurinn er með <strong>46 litninga í flestum líkamsfrumum (23 pör)</strong>. Á hverjum litningi eru fjölmörg <span class="term" data-def="Bútur úr DNA sem ræður tilteknum eiginleika.">gen</span> sem stjórna eiginleikum lífverunnar.
+        </div>
       </div>
     </details>
 
     <details class="expand reveal">
-      <summary><span aria-hidden="true">🌱</span> Mendels erfðalög <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <summary><span aria-hidden="true">🔁</span> Afritun DNA <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <p><strong>Gregor Mendel</strong> (1822–1884) rannsakaði erfðir með ertum og fann:</p>
+        <p>Áður en fruma skiptir sér þarf hún að tvöfalda DNA sitt þannig að báðar dótturfrumurnar fái sömu erfðaupplýsingar.</p>
+        <ol>
+          <li>Tvöfaldur DNA-þráðurinn <strong>opnast</strong> eins og rennilás.</li>
+          <li>Hver helmingur þjónar sem fyrirmynd að <strong>nýjum parþræði</strong> — basarnir parast eftir reglu (A–T, G–C).</li>
+          <li>Þannig verða <strong>tveir eins tvöfaldir þræðir</strong> úr einum.</li>
+        </ol>
+        <p>Þetta er nákvæmt ferli en stundum verða villur — það eru <strong>stökkbreytingar</strong>.</p>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">🌱</span> Mendelsk erfðafræði <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p><strong>Gregor Mendel</strong> (1822–1884) sýndi með ertum að eiginleikar berast á milli kynslóða með <strong>genum</strong>.</p>
+        <p><strong>Lögmál Mendels:</strong> Gen eru á litningum; gen á mismunandi litningum erfast óháð hvert öðru og aðskiljast við kynfrumumyndun.</p>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtök — arfgerð og svipgerð</strong>
+          <strong>Arfgerð (genótýpa)</strong> = erfðasamsetning einstaklings, t.d. AA, Aa eða aa.<br>
+          <strong>Svipgerð (fenótýpa)</strong> = útlit eða einkenni sem sjást — t.d. brún augu.
+        </div>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtök — arfhreinn og arfblendinn</strong>
+          <strong>Arfhreinn</strong> einstaklingur er með tvö eins gen (AA eða aa).<br>
+          <strong>Arfblendinn</strong> einstaklingur er með tvö ólík gen (Aa).<br>
+          Hjá arfblendnum tjáist <strong>ríkjandi</strong> genið í svipgerð en <strong>víkjandi</strong> genið felst en getur erfst áfram.
+        </div>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">🎭</span> Ófullkomið ríki — jafnríki og takmarkandi ríki <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p>Ekki erfast allir eiginleikar samkvæmt einföldum reglum Mendels. Tvö dæmi um <strong>ófullkomið ríki</strong>:</p>
         <ul>
-          <li><strong>Lög um aðskilnað:</strong> Gen aðskiljast þegar kynfrumur myndast (meiosis)</li>
-          <li><strong>Lög um óháða dreifingu:</strong> Gen á mismunandi litningum erfast óháð hvort öðrum</li>
-          <li><strong>Ríkjandi (dominant):</strong> Tjáist þó aðeins eitt eintak sé til staðar</li>
-          <li><strong>Víkjandi (recessive):</strong> Tjáist aðeins þegar tvö eintök eru til staðar</li>
+          <li><strong>Jafnríki:</strong> Bæði gen tjást samtímis í svipgerð. Dæmi: <strong>blóðflokkur AB</strong> — bæði A-gen og B-gen tjást og einstaklingurinn hefur báða mótefnisvaka á rauðum blóðkornum.</li>
+          <li><strong>Takmarkandi ríki (ófullkomið ríki):</strong> Arfblendinn einstaklingur sýnir <em>blöndu</em> af báðum eiginleikum. Dæmi: ef rauð blóm (RR) eru víxlfrjóvguð með hvítum (HH) verða afkvæmin <strong>bleik</strong> (RH).</li>
         </ul>
-        <p><strong>Genótýpa</strong> = erfðasamsett (t.d. Aa) · <strong>Fenótýpa</strong> = útlit/einkenni (t.d. brún augu)</p>
+        <div class="link-list">
+          <a class="link-pill" href="https://www.visindavefur.is/svar.php?id=2374" target="_blank" rel="noopener">🔗 Erfðir blóðflokka — Vísindavefur</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">🩸</span> Erfðir blóðflokka <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p>Blóðflokkar í ABO-kerfinu eru fjórir: <strong>A, B, AB og O</strong>. Þeir ráðast af mótefnisvökum á yfirborði rauðu blóðkornanna.</p>
+        <p>Genin sem stjórna þeim eru <strong>þrjú</strong> samsætugen: A, B og O.</p>
+        <ul>
+          <li><strong>A og B</strong> eru <strong>ríkjandi</strong> gagnvart O</li>
+          <li><strong>A og B</strong> sýna <strong>jafnríki</strong> sín á milli — saman gefa þau AB-blóðflokk</li>
+          <li><strong>O</strong> er <strong>víkjandi</strong></li>
+        </ul>
+        <table>
+          <thead><tr><th>Arfgerð</th><th>Svipgerð (blóðflokkur)</th></tr></thead>
+          <tbody>
+            <tr><td>AA eða AO</td><td>A</td></tr>
+            <tr><td>BB eða BO</td><td>B</td></tr>
+            <tr><td>AB</td><td>AB</td></tr>
+            <tr><td>OO</td><td>O</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">⚧</span> Kyneinkenni, kyntengdar og kynháðar erfðir <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:0 0 .4rem">Hvað ræður líffræðilegu kyni?</p>
+        <p>Hjá fólki ráða <strong>kynlitningarnir</strong> líffræðilegu kyni:</p>
+        <ul>
+          <li><strong>XX</strong> → kvenkyns</li>
+          <li><strong>XY</strong> → karlkyns</li>
+        </ul>
+        <p>Móðirin gefur alltaf X. Faðirinn gefur annað hvort X (þá verður stúlka) eða Y (þá verður drengur). Þess vegna ákvarðast kyn barnsins af föðurnum.</p>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Kyntengdar erfðir</p>
+        <p>Sumar erfðir liggja á X- eða Y-litningi og kallast <strong>kyntengdar</strong>. Dæmi: <strong>litblinda</strong> liggur á X-litningi. Þar sem strákar eru aðeins með einn X-litning eru þeir mun líklegri til að vera litblindir en stelpur.</p>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Kynháðar erfðir</p>
+        <p><strong>Kynháðar erfðir</strong> eru ekki á kynlitningum, en eiginleikar koma misjafnlega fram hjá kynjunum — oft vegna hormóna. Dæmi: skalli karlmanna er kynháð erfð sem tjáist sterkar hjá karlmönnum vegna testósteróns.</p>
       </div>
     </details>
 
     <details class="expand reveal">
       <summary><span aria-hidden="true">⚠️</span> Stökkbreytingar og krabbamein <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <p><strong>Stökkbreytingar</strong> eru breytingar á DNA-röðinni.</p>
-        <ul>
-          <li><strong>Orsakir:</strong> UV-geislar, geislun, tóbak, lyfjaefni, tilviljun (við frumuskiptingu)</li>
-          <li>Flestar eru skaðlegar eða hlutlægar; fáar eru gagnlegar</li>
-          <li>Stökkbreytingar í <em>proto-onkógenum</em> eða <em>bæligenum</em> geta valdið <strong>krabbameini</strong></li>
-          <li>Krabbamein = frumur sem fjölga sér óhóflega og breiðast út</li>
-        </ul>
-        <p><strong>Varnir:</strong> Sólarvörn · Reykingabann · Reglulegar skoðanir · Heilbrigður lífsstíll</p>
+        <p><strong>Stökkbreytingar eru villur í afritun DNA.</strong> Í dag eru þær oftast taldar verða af <strong>tilviljun</strong> við afritun frumunnar.</p>
+        <p>UV-geislar, geislun, tóbak og ákveðin efni geta aukið líkur á stökkbreytingum.</p>
+        <p>Stökkbreytingar geta valdið <strong>krabbameini</strong> ef frumur fjölga sér stjórnlaust og breiðast út.</p>
+        <p><strong>Varnir:</strong> Sólarvörn, reykleysi, reglulegar skoðanir, heilbrigður lífsstíll.</p>
       </div>
     </details>
 
-    <!-- Quiz -->
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">🧪</span> Líftækni — stutt kynning <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p><strong>Líftækni</strong> er notkun lifandi lífvera eða hluta þeirra (eins og DNA, fruma eða ensíma) til að framleiða gagnlegar afurðir eða lausnir.</p>
+        <p><strong>Dæmi um notkun líftækni:</strong></p>
+        <ul>
+          <li><strong>Læknisfræði:</strong> Framleiðsla insúlíns með erfðabreyttum bakteríum; bóluefni; einstaklingsmiðaðar lyfjameðferðir.</li>
+          <li><strong>Landbúnaður:</strong> Erfðabreyttar plöntur sem þola þurrk eða eru ríkari af næringarefnum.</li>
+          <li><strong>Réttarvísindi:</strong> DNA-greining til að bera kennsl á einstaklinga.</li>
+          <li><strong>Umhverfismál:</strong> Bakteríur sem hreinsa olíumengun.</li>
+          <li><strong>Genameðferð:</strong> Að lagfæra gölluð gen í sjúklingum með erfðasjúkdóma (CRISPR-tækni).</li>
+        </ul>
+        <p>Líftækni vekur líka <strong>siðferðisspurningar</strong>: Á að breyta erfðum manna? Hver á einkaleyfi á erfðabreytingum?</p>
+      </div>
+    </details>
+
+    <div class="izone reveal" aria-label="Flettispjöld — erfðafræðihugtök">
+      <p class="izone-title" data-i18n="flashHeading">🎴 Flettispjöld — æfðu hugtök</p>
+      <p style="font-size:.75rem;color:var(--text3);margin-bottom:.8rem" data-i18n="flipHint">Smelltu á spjaldið til að fletta</p>
+      <div id="ch4-flashcards" data-flashcards="ch4" aria-live="polite"></div>
+    </div>
+
     <div class="izone reveal" aria-label="Próf í erfðafræði">
       <p class="izone-title" data-i18n="quizHeading">🧪 Prófaðu þig</p>
       <div id="ch4-q" data-quiz="ch4" aria-live="polite"></div>
@@ -395,38 +500,54 @@
   <section id="ch5" class="chapter ac5 reveal" aria-labelledby="ch5-h">
     <div class="ch-header">
       <div class="ch-num" style="background:#fb923c;color:#000" aria-hidden="true">5</div>
-      <h2 id="ch5-h" data-i18n="ch5Title">Æxlun og kynheilbrigði</h2>
+      <h2 id="ch5-h" data-i18n="ch5Title">Æxlun</h2>
     </div>
-    <p class="ch-lead">Frá frjóvgun til fæðingar — og kynheilbrigði sem hluta af heilbrigðu lífi. Við skoðum æxlunarferlið og helstu kynsjúkdóma.</p>
+    <p class="ch-lead">Hvernig lífverur fjölga sér — frá einföldustu skiptingu baktería til flókinnar þroskunar fósturs hjá spendýrum.</p>
 
-    <details class="expand reveal">
-      <summary><span aria-hidden="true">🔄</span> Kynæxlun og ókynæxlun <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+    <details class="expand reveal" open>
+      <summary><span aria-hidden="true">1️⃣</span> Kynlaus æxlun <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <p><strong>Kynæxlun</strong> — sameinun tveggja kynfrumna:</p>
+        <p>Aðeins ein lífvera þarf til. Afkvæmin eru <strong>erfðafræðilega eins</strong> og foreldrið.</p>
         <ul>
-          <li>Sáðfrumur: Framleiddar í eistunum → þroskaðar → bærðar í sáðvökva</li>
-          <li>Eggfrumur: Þróaðar í eggjastokkum → losna við egglosi mánaðarlega</li>
-          <li>Frjóvgun: Sáðfruma + eggfruma → sameinist í eggjaleiðara</li>
-          <li>Þroski: ~9 mánuðir í legi</li>
-        </ul>
-        <p><strong>Ókynæxlun</strong> — ein lífvera í upphafi: skipting (bakteríur), spórugjöf (sveppir), gróæxlun (plöntur).</p>
-      </div>
-    </details>
-
-    <details class="expand reveal">
-      <summary><span aria-hidden="true">🛡️</span> Kynheilbrigði og getnaðarvarnir <span class="exp-arrow" aria-hidden="true">▾</span></summary>
-      <div class="exp-body">
-        <ul>
-          <li><strong>Smokkar</strong> = besta vörn gegn kynsjúkdómum OG meðgöngu</li>
-          <li><strong>Getnaðarvarnapillur</strong> koma í veg fyrir meðgöngu en EKKI kynsjúkdóma</li>
-          <li><strong>HPV bólusetning</strong> gefin öllum börnum á Íslandi — kemur í veg fyrir leghálskrabbamein</li>
-          <li><strong>ART meðferð:</strong> HIV-jákvæðir einstaklingar sem fara í meðferð verða ósýkjandi</li>
-          <li>Landlæknisembættið og Heilsugæslan bjóða ókeypis kynsjúkdómspróf</li>
+          <li><strong>Skipting:</strong> bakteríur — ein fruma verður að tveimur.</li>
+          <li><strong>Gróæxlun:</strong> sveppir — mynda gró sem berast með vindi eða vatni.</li>
+          <li><strong>Vaxtaræxlun:</strong> kartöflur — nýjar plöntur vaxa beint upp úr móðurplöntunni.</li>
+          <li><strong>Knappskot:</strong> armslöngur (hyldra) — nýr einstaklingur vex sem útskot á móðurinni og losnar svo af.</li>
         </ul>
       </div>
     </details>
 
-    <!-- Quiz -->
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">2️⃣</span> Kynæxlun — innri og ytri frjóvgun <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p>Tveir foreldrar leggja til <strong>kynfrumur</strong> sem sameinast. Afkvæmin fá blöndu af erfðaefni frá báðum.</p>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Ytri frjóvgun</p>
+        <p>Sameining sáðfrumna og eggfrumna á sér stað <strong>utan líkamans</strong>, oftast í vatni. Dæmi: flestir fiskar, froskar.</p>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Innri frjóvgun</p>
+        <p>Sáðfrumur eru fluttar <strong>inn í líkama móðurinnar</strong> þar sem frjóvgun á sér stað. Dæmi: spendýr, fuglar, skriðdýr og mörg skordýr.</p>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — okfruma</strong>
+          Þegar sáðfruma og eggfruma sameinast verður til ein fruma — <strong>okfruma</strong> — sem ber erfðaefni frá báðum foreldrum og verður upphaf nýrrar lífveru.
+        </div>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">🤰</span> Æxlun hjá spendýrum eins og fólki <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p>Öll spendýr nota <strong>innri frjóvgun</strong>.</p>
+        <ol>
+          <li>Sáðfrumur eru fluttar inn í líkama móðurinnar.</li>
+          <li>Frjóvgun á sér stað í <strong>eggjaleiðara</strong> þegar sáðfruma og eggfruma sameinast.</li>
+          <li>Úr verður <strong>okfruma</strong> sem ferðast niður í <strong>legið</strong>.</li>
+          <li>Þar festir hún sig og fóstrið þroskast í um 9 mánuði.</li>
+        </ol>
+      </div>
+    </details>
+
     <div class="izone reveal" aria-label="Próf í æxlun">
       <p class="izone-title" data-i18n="quizHeading">🧪 Prófaðu þig</p>
       <div id="ch5-q" data-quiz="ch5" aria-live="polite"></div>
@@ -434,63 +555,340 @@
   </section>
 
   <!-- ════════════════════════════════════════
-       KAFLI 6: VISTFRÆÐI
+       KAFLI 6: VIST- OG UMHVERFISFRÆÐI (verulega útvíkkaður!)
   ════════════════════════════════════════ -->
   <section id="ch6" class="chapter ac6 reveal" aria-labelledby="ch6-h">
     <div class="ch-header">
       <div class="ch-num" style="background:#38c9b0;color:#000" aria-hidden="true">6</div>
-      <h2 id="ch6-h" data-i18n="ch6Title">★ Vistfræði og umhverfisfræði</h2>
+      <h2 id="ch6-h" data-i18n="ch6Title">★ Vist- og umhverfisfræði</h2>
     </div>
-    <p class="ch-lead">Lífverur lifa ekki einar — þær mynda flókin net tenginga. Við skoðum vistkerfi, fæðukeðjur og umhverfisáhrif mannsins.</p>
+    <p class="ch-lead">Lífverur lifa ekki einar — þær mynda flókin net tenginga, frá smæstu örverum í jarðvegi til stærstu vistkerfa á jörðinni.</p>
 
     <div class="stats">
-      <div class="stat"><span class="stat-val">+1.5°C</span><span class="stat-lbl">Markmið Parísarsamkomul.</span></div>
-      <div class="stat"><span class="stat-val">420 ppm</span><span class="stat-lbl">CO₂ í lofthjúpi 2024</span></div>
-      <div class="stat"><span class="stat-val">~50%</span><span class="stat-lbl">Jöklar minnkaðir frá 1890</span></div>
+      <div class="stat"><span class="stat-val">+1,5 °C</span><span class="stat-lbl">Markmið Parísarsamnings</span></div>
+      <div class="stat"><span class="stat-val">~430 ppm</span><span class="stat-lbl">CO₂ í andrúmslofti (2025)</span></div>
+      <div class="stat"><span class="stat-val">2040</span><span class="stat-lbl">Markmið Íslands um kolefnishlutleysi</span></div>
     </div>
 
-    <details class="expand reveal">
-      <summary><span aria-hidden="true">🌿</span> Vistkerfi — uppbygging <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+    <details class="expand reveal" open>
+      <summary><span aria-hidden="true">🌍</span> Stig vistfræðinnar — frá lífhvolfi til einstaklings <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <p><strong>Vistkerfi</strong> = heildarsamfélag lífvera og líflægs umhverfis.</p>
-        <ul>
-          <li><strong>Framleiðendur:</strong> Plöntur, þörungar — búa til lífræn efni með ljóstillífun</li>
-          <li><strong>Neytendur:</strong> Grasætur (1. stig) → Rándýr (2.–3. stig) → Alætur</li>
-          <li><strong>Rotverar/Sundrendur:</strong> Bakteríur og sveppir — sundra lífrænar leifar</li>
-        </ul>
-        <p>Aðeins <strong>~10%</strong> orku flæðir frá einu stigi fæðukeðju til næsta.</p>
+        <p>Vistfræði skoðar lífríkið á mörgum stigum — frá þeim smæsta til hins stærsta:</p>
+        <ol>
+          <li><strong>Einstaklingur</strong> — ein lífvera.</li>
+          <li><strong>Stofn</strong> — allir einstaklingar af einni tegund á tilteknu svæði (t.d. allir refir á Hornströndum).</li>
+          <li><strong>Líffélag</strong> — allir stofnar mismunandi tegunda sem lifa saman á svæði.</li>
+          <li><strong>Vistkerfi</strong> — svæði þar sem lífverur lifa saman og hafa samskipti við hver aðra og við líflaust umhverfi sitt (jarðveg, vatn, loft, hita).</li>
+          <li><strong>Lífhvolf</strong> — allur sá hluti jarðarinnar þar sem líf þrífst.</li>
+        </ol>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — búsvæði</strong>
+          Búsvæði er sá staður þar sem tiltekin lífvera lifir — t.d. votlendi, fjara, skógur eða borg. Hver tegund hefur sín kjörbúsvæði.
+        </div>
       </div>
     </details>
 
     <details class="expand reveal">
-      <summary><span aria-hidden="true">🏝️</span> Surtsey — frumherjun í beinni <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <summary><span aria-hidden="true">🍽️</span> Frumbjarga og ófrumbjarga — fæðukeðjur og vefir <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <p>Surtsey sprakk upp 1963 — ný eyja án lífs í Atlantshafi. Nákvæmt dæmi um <strong>frumherjun</strong>:</p>
+        <p>Allar lífverur þurfa orku og næringu. Þær fá það á tvenns konar hátt:</p>
         <ul>
-          <li>Mosi og fléttum kom fyrst</li>
-          <li>Sjófuglar komu og buðu með fræ</li>
-          <li>Þörungar, gras og runnar komu á eftir</li>
-          <li>Í dag er eyjan <strong>UNESCO heimserfðasjóðssvæði</strong></li>
+          <li><strong>Frumbjarga</strong> lífverur framleiða eigin næringu úr <strong>ólífrænum efnum</strong>. Dæmi: allar plöntur, þörungar og blágrænar bakteríur (með ljóstillífun).</li>
+          <li><strong>Ófrumbjarga</strong> lífverur þurfa að fá lífræn efni úr fæðu. Dæmi: öll dýr, sveppir og flestar bakteríur.</li>
         </ul>
-        <a href="https://www.surtsey.is" target="_blank" rel="noopener" style="color:var(--teal);font-size:.78rem">→ surtsey.is</a>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Fæðukeðja</p>
+        <p>Orkan flyst upp eftir fæðukeðju:</p>
+        <p style="text-align:center;font-family:'DM Serif Display',serif;font-size:.95rem;color:var(--text);margin:.8rem 0">Frumframleiðandi → grasæta → kjötæta → toppdýr → sundrendur</p>
+        <p>Íslenskt dæmi: gras → lamb → refur → sundrendur (rotbakteríur og sveppir).</p>
+
+        <p>Margar fæðukeðjur fléttast saman í <strong>fæðuvef</strong>.</p>
+
+        <div class="tip-box">
+          <strong class="tip-label">⚠️ Orkutap í fæðukeðjum</strong>
+          Aðeins um <strong>10 % af orkunni</strong> flyst frá einu stigi til þess næsta — hitt fer í öndun og hita. Þess vegna eru færri toppdýr en grasætur í hverju vistkerfi.
+        </div>
       </div>
     </details>
 
     <details class="expand reveal">
-      <summary><span aria-hidden="true">🌍</span> Hamfarahlýnun og Heimsmarkmið <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <summary><span aria-hidden="true">🌿</span> Flokkun lífvera — 5 ríki og tvínafnakerfi <span class="exp-arrow" aria-hidden="true">▾</span></summary>
       <div class="exp-body">
-        <p><strong>Hamfarahlýnun</strong> = hlýnun loftslags vegna aukningar gróðurhúsalofttegunda (CO₂, CH₄, N₂O) frá mannlegum aðgerðum.</p>
-        <ul>
-          <li>Jarðhiti hækkaður um ~1.2°C frá iðnvæðingu</li>
-          <li>Á Íslandi: Jöklabrjótur, nýjar plöntutegundir, raskað vistkerfisnet</li>
-          <li>CO₂ 2024: yfir 420 ppm — hæsta gildi í 4 milljón ár</li>
-        </ul>
-        <p><strong>Heimsmarkmið SDG:</strong> 17 markmið til 2030. Íslenska áhersla: 13 (loftslag), 14 (líf í hafi), 15 (líf á landi).</p>
-        <a href="https://www.heimsmarkmidin.is" target="_blank" rel="noopener" style="color:var(--teal);font-size:.78rem">→ heimsmarkmidin.is</a>
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:0 0 .4rem">5 ríki lífvera</p>
+        <table>
+          <thead><tr><th>Ríki</th><th>Megineinkenni</th><th>Dæmi</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Gerlaríki</strong> (dreifkjörnungar)</td><td>Smáar, einfrumna, án afmarkaðs kjarna</td><td>Bakteríur</td></tr>
+            <tr><td><strong>Frumverur</strong></td><td>Einfrumna heilkjörnungar</td><td>Amöbur, þörungar</td></tr>
+            <tr><td><strong>Svepparíki</strong></td><td>Ófrumbjarga, frumuveggur úr kítíni</td><td>Hattsveppir, gersveppir</td></tr>
+            <tr><td><strong>Plönturíki</strong></td><td>Frumbjarga, ljóstillífun</td><td>Tré, blóm, mosi</td></tr>
+            <tr><td><strong>Dýraríki</strong></td><td>Ófrumbjarga, hreyfanleg</td><td>Fólk, fiskar, skordýr</td></tr>
+          </tbody>
+        </table>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Frekari flokkun</p>
+        <p style="text-align:center;font-family:'DM Serif Display',serif;font-size:.85rem;color:var(--purple);margin:.6rem 0">Ríki → Fylking → Flokkur → Ættbálkur → Ætt → Ættkvísl → Tegund</p>
+        <p>Dæmi: maðurinn (<em>Homo sapiens</em>) er í dýraríki → fylkingu seildýra → flokki spendýra → ættbálki fremdardýra → ætt manna → ættkvíslinni <em>Homo</em> → tegundinni <em>sapiens</em>.</p>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — tvínafnakerfi</strong>
+          Carl von Linné fann upp <strong>tvínafnakerfið</strong>: hver tegund fær <strong>tvö latnesk heiti</strong> — fyrra er ættkvíslarheitið (með stórum staf) og seinna er tegundarheitið (með litlum staf). Bæði eru <em>skáletruð</em>. Dæmi: <em>Canis lupus</em> (úlfur), <em>Homo sapiens</em> (maður).
+        </div>
       </div>
     </details>
 
-    <!-- Quiz -->
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">🪱</span> Sníkjudýr og lífsferlar <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:0 0 .4rem">Frumdýr</p>
+        <ul>
+          <li><strong>Svefnsýki:</strong> orsakast af frumdýrinu <em>Trypanosoma</em>, smitast með tsetseflugum í Afríku. Veldur svefnhöfga og dauða án meðferðar.</li>
+          <li><strong>Malaría:</strong> orsakast af frumdýrinu <em>Plasmodium</em>, smitast með moskítóflugum. Eitt mannskæðasta sjúkdómsefni heims.</li>
+        </ul>
+        <p>Notkun skordýraeiturs (t.d. DDT) dró úr útbreiðslu malaríu á 20. öld — en olli stórum umhverfisvandamálum (líffræðilegri mögnun í fuglum og rándýrum).</p>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Flatormar — bandormar</p>
+        <ul>
+          <li>Hafa flatan, liðaðan líkama — hver liður inniheldur kynfrumur.</li>
+          <li>Lifa í þörmum hýsils.</li>
+        </ul>
+        <p><strong>Sullaveikibandormur</strong> (<em>Echinococcus granulosus</em>):</p>
+        <ul>
+          <li><strong>Aðalhýsill:</strong> hundar — fullorðni ormurinn lifir í þörmum þeirra.</li>
+          <li><strong>Millihýsill:</strong> kindur (eða menn) — sullir myndast í lifur og lungum.</li>
+          <li>Sullaveiki var algeng á Íslandi á 19. öld en hefur verið útrýmt með ormalyfjameðferð hunda.</li>
+        </ul>
+        <p><strong>Nautabandormur</strong> (<em>Taenia saginata</em>):</p>
+        <ul>
+          <li><strong>Aðalhýsill:</strong> maður — fullorðni ormurinn lifir í þörmum.</li>
+          <li><strong>Millihýsill:</strong> nautgripir — eggin í sauruðu beitilandi.</li>
+        </ul>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Þráðormar — njálgur</p>
+        <p><strong>Njálgur</strong> (<em>Enterobius vermicularis</em>) er algengur þráðormur, sérstaklega hjá börnum.</p>
+        <ul>
+          <li>Lifsferill: egg sem berast í munn → klakast út í þörmum → fullorðnir ormar gjóta eggjum við endaþarmsop á nóttunni.</li>
+          <li>Einkenni: kláði við endaþarm, sérstaklega á nóttunni.</li>
+          <li>Meðferð: lyf gegn ormum.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">🏝️</span> Surtsey — framvinda í beinni <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p><strong>Gos hófst í Surtsey 1963</strong> á hafsbotni suður af Vestmannaeyjum. Surtsey er einstakt dæmi um <strong>framvindu</strong> — hvernig líf nemur land á nýju svæði.</p>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — framvinda</strong>
+          Þróun lífríkis á svæði yfir tíma. Á nýju, líflausu svæði eins og hrauni hefst framvindan með mosa og fléttum, síðan koma plöntur, dýr og loks heilt vistkerfi.
+        </div>
+
+        <p>Surtsey var <strong>friðlýst</strong> árið 1965 og fer á <strong>heimsminjaskrá UNESCO</strong> árið 2008 vegna einstaks vísindagildis.</p>
+        <p>Helstu dæmi um landnám lífvera í Surtsey (þetta er ekki tæmandi listi):</p>
+        <ul>
+          <li>Fjörukál og melgresi voru fyrstu háplönturnar (1965).</li>
+          <li>Fýll byrjaði að verpa árið 1970, teista ári síðar.</li>
+          <li>Sjófuglar bera með sér fræ úr driti og á fjöðrum.</li>
+        </ul>
+
+        <div class="imglink-grid">
+          <a class="imglink" href="https://www.surtsey.is" target="_blank" rel="noopener">
+            <span class="imglink-icon">🏝️</span>
+            <span class="imglink-title">Surtseyjarfélagið</span>
+            <span class="imglink-host">surtsey.is</span>
+          </a>
+          <a class="imglink" href="https://whc.unesco.org/en/list/1267/" target="_blank" rel="noopener">
+            <span class="imglink-icon">🌍</span>
+            <span class="imglink-title">UNESCO — Surtsey</span>
+            <span class="imglink-host">whc.unesco.org</span>
+          </a>
+          <a class="imglink" href="https://www.ni.is" target="_blank" rel="noopener">
+            <span class="imglink-icon">🔬</span>
+            <span class="imglink-title">Náttúrufræðistofnun</span>
+            <span class="imglink-host">ni.is</span>
+          </a>
+        </div>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">🌡️</span> Hamfarahlýnun og loftslagsbreytingar <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p>Hamfarahlýnun er óvenju hröð hlýnun loftslags <strong>vegna aðferða fólks (okkar tegundar)</strong>. Bruni jarðefnaeldsneytis (kol, olía, jarðgas), skógareyðing og landbúnaður losa gróðurhúsalofttegundir út í andrúmsloftið.</p>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — gróðurhúsaáhrif</strong>
+          Sumar lofttegundir í andrúmsloftinu (CO₂, metan og hláturgas N₂O) fanga varma frá sólinni. Án þeirra væri jörðin of köld fyrir líf — en <strong>of mikið</strong> magn veldur hættulegri hlýnun.
+        </div>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — CO₂ og ppm</strong>
+          <strong>CO₂</strong> er koldíoxíð — lofttegund sem myndast m.a. við bruna og öndun. <strong>ppm</strong> þýðir „parts per million" (hlutar af milljón). Fyrir iðnbyltinguna var styrkur CO₂ um 280 ppm. Árið 2025 fór hann yfir 430 ppm — hæsta gildi í 4 milljón ár.
+        </div>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Áhrif á jörðina</p>
+        <ul>
+          <li>Hiti á jörðinni hefur hækkað um ~1,3 °C frá iðnbyltingu (miðað við 1850–1900).</li>
+          <li>Hafísinn á norðurslóðum minnkar; sjávarborð hækkar.</li>
+          <li>Veðurfar verður óstöðugra — tíðari flóð, þurrkar og skógareldar.</li>
+          <li>Súrnun sjávar ógnar lífríki hafsins.</li>
+        </ul>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Áhrif á Ísland</p>
+        <ul>
+          <li>Íslenskir jöklar hopa hratt — Ok jökull var formlega lýstur „dauður" árið 2014.</li>
+          <li>Röskun vistkerfa — sjávarhiti hækkar og fiskistofnar færa sig norðar.</li>
+          <li>Nýjar plöntutegundir nema land.</li>
+          <li>Vetur verða mildari en sumur óvenjuleg.</li>
+        </ul>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — röskun vistkerfa</strong>
+          Þegar vistkerfi truflast af utanaðkomandi þáttum — náttúrulegum (eldgosi, skógareldi) eða af mannavöldum (skógareyðingu, mengun, loftslagsbreytingum). Eftir röskun hefst oft ný framvinda.
+        </div>
+
+        <div class="imglink-grid">
+          <a class="imglink" href="https://landvernd.is/hvad-er-hamfarahlynun/" target="_blank" rel="noopener">
+            <span class="imglink-icon">🌍</span>
+            <span class="imglink-title">Landvernd — Hamfarahlýnun</span>
+            <span class="imglink-host">landvernd.is</span>
+          </a>
+          <a class="imglink" href="https://www.vedur.is/loftslag" target="_blank" rel="noopener">
+            <span class="imglink-icon">🌡️</span>
+            <span class="imglink-title">Veðurstofan — Loftslag</span>
+            <span class="imglink-host">vedur.is</span>
+          </a>
+          <a class="imglink" href="https://gml.noaa.gov/ccgg/trends/" target="_blank" rel="noopener">
+            <span class="imglink-icon">📈</span>
+            <span class="imglink-title">NOAA — CO₂ ferill</span>
+            <span class="imglink-host">gml.noaa.gov</span>
+          </a>
+        </div>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">🦋</span> Lífbreytileiki og ógnir <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — lífbreytileiki</strong>
+          Fjölbreytileiki lífvera á þremur stigum: <strong>erfðabreytileiki</strong> (innan tegundar), <strong>tegundabreytileiki</strong> (fjöldi tegunda) og <strong>vistkerfabreytileiki</strong> (mismunandi tegundir vistkerfa).
+        </div>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Helstu ógnir við lífbreytileika</p>
+        <ul>
+          <li><strong>Búsvæðamissir:</strong> Skógareyðing, framræsla mýra, byggingaframkvæmdir.</li>
+          <li><strong>Ágengar tegundir:</strong> Tegundir sem berast á ný svæði og ryðja innlendum tegundum úr vegi. Á Íslandi: lúpína, spánarsnigill, minkur.</li>
+          <li><strong>Loftslagsbreytingar:</strong> Tegundir ná ekki að aðlagast nógu hratt.</li>
+          <li><strong>Ofnýting:</strong> Ofveiði, ofbeit.</li>
+          <li><strong>Mengun:</strong> Plast í sjó, eiturefni í jarðvegi.</li>
+        </ul>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Útdauði tegunda og íslenski válistinn</p>
+        <p>Þegar síðasti einstaklingur tegundar deyr telst tegundin <strong>útdauð</strong>. Á Íslandi heldur Náttúrufræðistofnun úti <strong>válista</strong> yfir tegundir í hættu — fugla, plöntur, fiska og fleira.</p>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">🛡️</span> Náttúruvernd og vistheimt á Íslandi <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:0 0 .4rem">Vistkerfisþjónusta</p>
+        <p>Vistkerfin veita okkur margvíslega <strong>þjónustu</strong> án endurgjalds: hreint vatn, frjór jarðvegur, frævun, hreinsun lofts og uppistöðu fyrir mat.</p>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Íslenskir þjóðgarðar</p>
+        <ul>
+          <li><strong>Þingvellir</strong> — UNESCO-staður, jarðfræðilega einstakur.</li>
+          <li><strong>Vatnajökulsþjóðgarður</strong> — stærsti þjóðgarður Evrópu.</li>
+          <li><strong>Snæfellsjökulsþjóðgarður</strong> — strandvistkerfi og jökull.</li>
+        </ul>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Vistheimt</p>
+        <p><strong>Vistheimt</strong> er að endurheimta vistkerfi sem hefur verið raskað. Á Íslandi felur þetta m.a. í sér:</p>
+        <ul>
+          <li><strong>Endurheimt votlendis:</strong> fylla aftur upp í skurði sem voru grafnir á 20. öld.</li>
+          <li><strong>Landgræðsla:</strong> stöðva uppblástur og koma plöntum á blásin svæði.</li>
+          <li><strong>Skógrækt:</strong> binda kolefni og endurbyggja lífríki.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">🎯</span> Heimsmarkmið SÞ og íslenskar áherslur <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p>Árið 2015 samþykktu öll aðildarríki Sameinuðu þjóðanna <strong>17 heimsmarkmið um sjálfbæra þróun</strong> sem eiga að nást fyrir árið 2030.</p>
+
+        <table>
+          <thead><tr><th>Markmið</th><th>Íslensk áhersla</th></tr></thead>
+          <tbody>
+            <tr><td><strong>5</strong> Jafnrétti kynjanna</td><td>Ísland í fararbroddi á heimsvísu.</td></tr>
+            <tr><td><strong>7</strong> Sjálfbær orka</td><td>Yfir 99 % raforku á Íslandi kemur frá endurnýjanlegum orkugjöfum (vatnsafli, jarðvarma).</td></tr>
+            <tr><td><strong>13</strong> Aðgerðir í loftslagsmálum</td><td><strong>Kolefnishlutleysi árið 2040</strong> og engin notkun jarðefnaeldsneytis sama ár.</td></tr>
+            <tr><td><strong>14</strong> Líf í hafi</td><td>Sjálfbær fiskveiðistjórnun, verndun lífríkis hafsins.</td></tr>
+            <tr><td><strong>15</strong> Líf á landi</td><td>Landgræðsla, skógrækt, endurheimt votlendis.</td></tr>
+          </tbody>
+        </table>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — kolefnishlutleysi</strong>
+          Að binda jafn mikið koldíoxíð og er losað — nettólosun er þá núll. Ísland stefnir á kolefnishlutleysi árið 2040 með skógrækt, endurheimt votlendis og orkuskiptum í samgöngum.
+        </div>
+
+        <div class="link-list">
+          <a class="link-pill" href="https://www.heimsmarkmidin.is" target="_blank" rel="noopener">🔗 heimsmarkmidin.is</a>
+          <a class="link-pill" href="https://endurheimtvistkerfa.is/" target="_blank" rel="noopener">🔗 Endurheimt vistkerfa</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">⚖️</span> Sjálfbærni — þrír þættir <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <p>Sjálfbær þróun byggir á þremur jafngildum stoðum sem styðja hver aðra:</p>
+        <ul>
+          <li><strong>Umhverfi:</strong> Vernda vistkerfi og lífbreytileika; nota náttúruauðlindir á þann hátt að framtíðarkynslóðir hafi líka aðgang að þeim.</li>
+          <li><strong>Samfélag:</strong> Tryggja jafnrétti, lýðræði, menntun, heilsu og menningu fyrir alla.</li>
+          <li><strong>Efnahagur:</strong> Hagsæld sem þjónar fólki og umhverfi — ekki á kostnað þeirra.</li>
+        </ul>
+        <p>Ef ein stoðin hrynur falla hinar með — t.d. ef vistkerfi raskast tapast bæði samfélagsleg og efnahagsleg verðmæti.</p>
+      </div>
+    </details>
+
+    <details class="expand reveal">
+      <summary><span aria-hidden="true">👣</span> Vistspor og mengun <span class="exp-arrow" aria-hidden="true">▾</span></summary>
+      <div class="exp-body">
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — vistspor</strong>
+          Mælikvarði á það hve mikið land og vatn þarf til að uppfylla þarfir okkar — hve mikið auðlindir við nýtum og úrgang sem við skiljum eftir. Því stærra vistspor, því meira álag á jörðina.
+        </div>
+
+        <p>Ef allir í heiminum lifðu eins og Íslendingar þyrfti um <strong>5 jarðir</strong> til að uppfylla þarfirnar.</p>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Fólksfjölgun og dreifing auðs</p>
+        <p>Íbúar jarðar voru um <strong>8 milljarðar</strong> árið 2025 og fer fjölgandi. Auðurinn er mjög misskipt: <strong>1 % ríkasta fólksins</strong> á rúmlega helming alls auðs í heiminum.</p>
+
+        <p class="subhead" style="font-size:.95rem;color:var(--text);border:none;margin:.8rem 0 .4rem">Tegundir mengunar</p>
+        <ul>
+          <li><strong>Loftmengun</strong> — útblástur frá bílum, iðnaði, eldgosum.</li>
+          <li><strong>Vatnsmengun</strong> — frárennsli, áburðarnotkun, olíu- og plastmengun.</li>
+          <li><strong>Jarðvegsmengun</strong> — eiturefni, þungmálmar.</li>
+          <li><strong>Plastmengun</strong> — örplast finnst nú í regni, sjó og mannslíkamanum.</li>
+        </ul>
+
+        <div class="tip-box">
+          <strong class="tip-label">💡 Hugtak — líffræðileg mögnun</strong>
+          Þegar eiturefni (t.d. þungmálmar eða DDT) safnast upp í lífverum og <strong>styrkjast því ofar sem komið er í fæðukeðjuna</strong>. Toppdýr (eins og ernir, ísbirnir og fólk) geta því haft mun hærri styrk eiturefna í líkamanum en lífverurnar á neðri stigum.
+        </div>
+      </div>
+    </details>
+
+    <div class="izone reveal" aria-label="Flettispjöld — vistfræðihugtök">
+      <p class="izone-title" data-i18n="flashHeading">🎴 Flettispjöld — æfðu hugtök</p>
+      <p style="font-size:.75rem;color:var(--text3);margin-bottom:.8rem" data-i18n="flipHint">Smelltu á spjaldið til að fletta</p>
+      <div id="ch6-flashcards" data-flashcards="ch6" aria-live="polite"></div>
+    </div>
+
     <div class="izone reveal" aria-label="Próf í vistfræði">
       <p class="izone-title" data-i18n="quizHeading">🧪 Prófaðu þig</p>
       <div id="ch6-q" data-quiz="ch6" aria-live="polite"></div>
@@ -499,19 +897,11 @@
 
 </main>
 
-<!-- ══════════════════════════════════════════
-     FOOTER
-══════════════════════════════════════════ -->
 <footer role="contentinfo">
   <div class="footer-inner">
     <div>
-      <div class="footer-logos">
-        <img src="img/mms-logo.svg" alt="MMS — Miðstöð menntunar og skólaþjónustu" loading="lazy">
-        <img src="img/vma-logo.svg" alt="VMA — Verkmenntaskólinn á Mýrum" loading="lazy">
-        <img src="img/foa-logo.svg" alt="FÓA — Framhaldsskólinn í Ólafsfirði og Ásbrú" loading="lazy">
-      </div>
-      <p class="footer-text" data-i18n="footerCopy">© 2026 Hólmfríður Sigþórsdóttir · Flensborgarskóli</p>
-      <p class="footer-text" data-i18n="footerSources">Heimildir: Vísindavefurinn · MMS · Landlæknisembættið</p>
+      <p class="footer-text" data-i18n="footerCopy">© 2026 Hólmfríður Sigþórsdóttir</p>
+      <p class="footer-text" data-i18n="footerSources">Heimildir: Vísindavefurinn · Landlæknisembættið · Náttúrufræðistofnun · Veðurstofa Íslands</p>
       <div class="footer-stamp">
         <span aria-hidden="true">🕐</span>
         <span data-i18n="builtOn">Smíðað</span>
@@ -525,7 +915,7 @@
       <p><a href="#ch3">3. Örverur</a></p>
       <p><a href="#ch4">4. Erfðafræði</a></p>
       <p><a href="#ch5">5. Æxlun</a></p>
-      <p><a href="#ch6">6. Vistfræði</a></p>
+      <p><a href="#ch6">6. Vist- og umhverfisfræði</a></p>
     </div>
   </div>
 </footer>
